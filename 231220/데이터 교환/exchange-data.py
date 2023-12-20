@@ -2,13 +2,10 @@ a = 5
 b = 6
 c = 7
 
-tempa = a
-tempb = b
-tempc = c
-
-b = tempa
-c = tempb
-a = tempc
+temp = a
+a = c
+c = b
+b = temp
 
 print(a)
 print(b)
